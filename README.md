@@ -1,73 +1,153 @@
-# Welcome to your Lovable project
+# Himaja Sai Alapati - Portfolio Website 🚀
 
-## Project info
+A modern, responsive portfolio website showcasing the work and skills of Himaja Sai Alapati, a passionate Full Stack Developer with expertise in modern web technologies and AI integration.
 
-**URL**: https://lovable.dev/projects/6f373fee-208b-4dd5-8761-c8f7b6a4f97e
+## ✨ Features
 
-## How can I edit this code?
+- **Modern Design**: Clean, professional design with smooth animations and gradients
+- **Responsive Layout**: Fully responsive design that works on all devices
+- **Interactive Elements**: Smooth scrolling, hover effects, and animated transitions
+- **Contact Form**: Working contact form that opens default email client
+- **Professional Sections**:
+  - Hero section with animated typewriter effect
+  - About me with education and experience highlights
+  - Skills showcase with technology icons and certifications
+  - Featured projects with live demos and GitHub links
+  - Contact information and social media links
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Frontend**: React 18, TypeScript
+- **Styling**: Tailwind CSS with custom design system
+- **UI Components**: Shadcn/ui components
+- **Icons**: Lucide React
+- **Build Tool**: Vite
+- **Deployment**: Ready for Vercel, Netlify, or any static hosting
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6f373fee-208b-4dd5-8761-c8f7b6a4f97e) and start prompting.
+## 🚀 Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (v16 or higher)
+- npm or yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd portfolio-website
+```
 
-Follow these steps:
+2. Install dependencies:
+```bash
+npm install
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📁 Project Structure
 
-**Use GitHub Codespaces**
+```
+src/
+├── components/           # React components
+│   ├── Header.tsx       # Navigation header
+│   ├── Hero.tsx         # Hero section with animations
+│   ├── About.tsx        # About me section
+│   ├── Skills.tsx       # Skills and certifications
+│   ├── Projects.tsx     # Featured projects
+│   ├── Contact.tsx      # Contact form and info
+│   └── Footer.tsx       # Footer with links
+├── assets/              # Images and static assets
+├── hooks/               # Custom React hooks
+├── lib/                 # Utility functions
+├── pages/               # Page components
+└── index.css           # Global styles and design system
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎨 Design System
 
-## What technologies are used for this project?
+The portfolio uses a professional design system with:
 
-This project is built with:
+- **Colors**: Professional blue and purple gradient scheme
+- **Typography**: Inter font family for clean readability
+- **Animations**: Smooth transitions, hover effects, and scroll animations
+- **Components**: Consistent card layouts and button styles
+- **Responsive**: Mobile-first approach with breakpoints
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📧 Contact Form
 
-## How can I deploy this project?
+The contact form is designed to:
+- Validate user input
+- Open the default email client with pre-filled content
+- Provide user feedback through toast notifications
+- Maintain professional communication standards
 
-Simply open [Lovable](https://lovable.dev/projects/6f373fee-208b-4dd5-8761-c8f7b6a4f97e) and click on Share -> Publish.
+## 🌟 Key Highlights
 
-## Can I connect a custom domain to my Lovable project?
+- **Professional Experience**: 1+ years as Software Developer & Mentor
+- **Education**: M.Tech in Computer Science (Current), B.Tech in Computer Science
+- **Certifications**: Meta Front-End Developer, ChatGPT, HackerRank CSS
+- **Technologies**: React, Python, JavaScript, AI Integration, Cloud Services
+- **Projects**: Email Automation, Image Search, Weather Dashboard
 
-Yes, you can!
+## 📱 Social Links
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- **GitHub**: [@Alapatihimaja23](https://github.com/Alapatihimaja23)
+- **LinkedIn**: [Himaja Alapati](https://www.linkedin.com/in/himaja-alapati-908929238/)
+- **Email**: himajaalapati23@gmail.com
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🚀 Deployment
+
+### Deploy to Vercel
+
+1. Install Vercel CLI:
+```bash
+npm i -g vercel
+```
+
+2. Build and deploy:
+```bash
+npm run build
+vercel --prod
+```
+
+### Deploy to Netlify
+
+1. Build the project:
+```bash
+npm run build
+```
+
+2. Deploy the `dist` folder to Netlify
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+While this is a personal portfolio, suggestions and feedback are welcome! Feel free to:
+
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
+
+## 📞 Contact
+
+For any questions or collaboration opportunities:
+
+- **Email**: himajaalapati23@gmail.com
+- **LinkedIn**: [Himaja Alapati](https://www.linkedin.com/in/himaja-alapati-908929238/)
+- **Phone**: +91 9390738043
+
+---
+
+**Built with ❤️ by Himaja Sai Alapati**
+
+*Available for freelance projects and full-time opportunities!*
