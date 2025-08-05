@@ -1,7 +1,7 @@
 import { GraduationCap, Briefcase, MapPin, Calendar, Download } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import profileImage from '@/assets/profile-girl.jpg';
+import profileImage from '@/assets/Himajapic.jpeg';
 
 const About = () => {
   const handleDownloadResume = () => {
@@ -88,11 +88,11 @@ const About = () => {
                   </div>
                   <p className="text-sm text-muted-foreground mb-2">
                     <strong>Software Developer & Mentor</strong><br />
-                    NxtWave (Current)
+                    NxtWave Disruptive Technologies Private Limited (Current)
                   </p>
                   <p className="text-sm text-muted-foreground">
                     <strong>Software Developer</strong><br />
-                    Vaidhyamegha Pvt Ltd
+                    VaidhyaMegha Private Limited(SamyamaAi)
                   </p>
                 </CardContent>
               </Card>

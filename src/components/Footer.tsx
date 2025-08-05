@@ -68,9 +68,9 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Services */}
+          {/* Skills */}
           <div>
-            <h4 className="font-semibold mb-4">Services</h4>
+            <h4 className="font-semibold mb-4">Skills</h4>
             <div className="space-y-2 text-muted-foreground">
               <p>Frontend Development</p>
               <p>Backend Development</p>
@@ -85,9 +85,8 @@ const Footer = () => {
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2 text-muted-foreground">
-              <span>© {currentYear} Himaja Sai Alapati. Made with</span>
-              <Heart className="text-red-500 fill-red-500" size={16} />
-              <span>and lots of ☕</span>
+              <span>© {currentYear} Himaja Sai Alapati.
+              </span>
             </div>
             
             <div className="flex items-center gap-4">
@@ -110,7 +109,7 @@ const Footer = () => {
         <div className="mt-8 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-muted text-sm text-muted-foreground">
             <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-            Available for freelance projects and full-time opportunities
+            Available for full-time opportunities
           </div>
         </div>
       </div>
