@@ -1,8 +1,16 @@
-import { GraduationCap, Briefcase, MapPin, Calendar } from 'lucide-react';
+import { GraduationCap, Briefcase, MapPin, Calendar, Download } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 import profileImage from '@/assets/profile-placeholder.jpg';
 
 const About = () => {
+  const handleDownloadResume = () => {
+    const link = document.createElement('a');
+    link.href = '/resume.pdf';
+    link.download = 'Himaja_Sai_Alapati_Resume.pdf';
+    link.click();
+  };
+
   return (
     <section id="about" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
@@ -34,11 +42,20 @@ const About = () => {
                 in developing scalable applications and mentoring aspiring developers. Currently pursuing my 
                 <span className="text-primary font-semibold"> M.Tech in Computer Science</span> while working full-time.
               </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
+              <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                 💻 I specialize in modern web technologies, cloud solutions, and AI integration. 
                 My passion lies in creating innovative solutions that solve real-world problems and 
                 contribute to meaningful technological advancement.
               </p>
+              
+              <Button 
+                onClick={handleDownloadResume}
+                size="lg"
+                className="bg-gradient-primary hover:opacity-90 transition-opacity"
+              >
+                <Download className="w-4 h-4 mr-2" />
+                Download Resume
+              </Button>
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">

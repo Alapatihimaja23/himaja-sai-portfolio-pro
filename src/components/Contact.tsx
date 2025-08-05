@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
+import { supabase } from '@/integrations/supabase/client';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -29,21 +30,27 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      // Create mailto link with form data
-      const subject = encodeURIComponent(formData.subject || 'Contact from Portfolio Website');
-      const body = encodeURIComponent(
-        `Hello Himaja,\n\nName: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}\n\nBest regards,\n${formData.name}`
-      );
-      
-      const mailtoLink = `mailto:himajaalapati23@gmail.com?subject=${subject}&body=${body}`;
-      
-      // Open default email client
-      window.location.href = mailtoLink;
-      
-      // Show success message
+      // Store in database
+      const { error: dbError } = await supabase
+        .from('contact_submissions')
+        .insert([formData]);
+
+      if (dbError) {
+        throw new Error(dbError.message);
+      }
+
+      // Send email via edge function
+      const { data, error } = await supabase.functions.invoke('send-contact-email', {
+        body: formData,
+      });
+
+      if (error) {
+        throw new Error(error.message);
+      }
+
       toast({
-        title: "Email client opened! 📧",
-        description: "Your default email app should now be open with the pre-filled message.",
+        title: "Message sent successfully! 🚀",
+        description: "Thank you for reaching out. I'll get back to you soon!",
       });
 
       // Reset form
@@ -54,10 +61,11 @@ const Contact = () => {
         message: ''
       });
     } catch (error) {
+      console.error('Contact form error:', error);
       toast({
-        title: "Error occurred",
+        title: "Error sending message",
         description: "Please try again or contact me directly via email.",
-        variant: "destructive"
+        variant: "destructive",
       });
     } finally {
       setIsSubmitting(false);
@@ -175,7 +183,7 @@ const Contact = () => {
                   disabled={isSubmitting}
                   className="w-full bg-gradient-primary hover:opacity-90 transition-opacity"
                 >
-                  {isSubmitting ? 'Opening Email Client...' : 'Send Message 🚀'}
+                  {isSubmitting ? 'Sending...' : 'Send Message 🚀'}
                 </Button>
               </form>
             </CardContent>
