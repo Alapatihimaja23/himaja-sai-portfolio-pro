@@ -1,0 +1,159 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 2000
+>>
+stream
+BT
+/F1 20 Tf
+50 750 Td
+(HIMAJA SAI ALAPATI) Tj
+0 -30 Td
+/F2 12 Tf
+(Software Engineer | Full Stack Developer) Tj
+0 -20 Td
+(Email: himajasai@example.com | Phone: +91-XXXXXXXXXX) Tj
+0 -15 Td
+(LinkedIn: linkedin.com/in/himaja-alapati-908929238) Tj
+0 -15 Td
+(GitHub: github.com/Alapatihimaja23) Tj
+
+0 -40 Td
+/F1 16 Tf
+(EDUCATION) Tj
+0 -25 Td
+/F2 12 Tf
+(M.Tech in Computer Science) Tj
+0 -15 Td
+(Vellore Institute of Technology, Vellore) Tj
+0 -15 Td
+(CGPA: 8.5/10 | 2022-2024) Tj
+
+0 -30 Td
+(B.Tech in Computer Science and Engineering) Tj
+0 -15 Td
+(Guru Nanak Institute of Technology, Hyderabad) Tj
+0 -15 Td
+(CGPA: 8.3/10 | 2018-2022) Tj
+
+0 -40 Td
+/F1 16 Tf
+(PROFESSIONAL EXPERIENCE) Tj
+0 -25 Td
+/F2 12 Tf
+(Software Engineer | NxtWave) Tj
+0 -15 Td
+(2023 - Present | Hyderabad, India) Tj
+0 -15 Td
+(• Developed and maintained full-stack web applications) Tj
+0 -15 Td
+(• Worked with React, Node.js, and modern web technologies) Tj
+0 -15 Td
+(• Collaborated with cross-functional teams to deliver projects) Tj
+
+0 -30 Td
+(Software Developer Intern | Vaidhyamegha Pvt Ltd) Tj
+0 -15 Td
+(2022 - 2023 | Remote) Tj
+0 -15 Td
+(• Built responsive web applications using React and TypeScript) Tj
+0 -15 Td
+(• Integrated APIs and implemented frontend solutions) Tj
+
+0 -40 Td
+/F1 16 Tf
+(TECHNICAL SKILLS) Tj
+0 -25 Td
+/F2 12 Tf
+(Languages: JavaScript, TypeScript, Python, Java, C++) Tj
+0 -15 Td
+(Frontend: React, HTML5, CSS3, Tailwind CSS, Bootstrap) Tj
+0 -15 Td
+(Backend: Node.js, Express.js, FastAPI, REST APIs) Tj
+0 -15 Td
+(Databases: MongoDB, PostgreSQL, MySQL, Supabase) Tj
+0 -15 Td
+(Tools: Git, Docker, VS Code, Postman, Figma) Tj
+0 -15 Td
+(AI/ML: Crew AI, n8n, Claude AI, Lovable) Tj
+
+0 -40 Td
+/F1 16 Tf
+(KEY PROJECTS) Tj
+0 -25 Td
+/F2 12 Tf
+(• E-commerce Platform - Full-stack web application) Tj
+0 -15 Td
+(• Task Management System - React-based productivity app) Tj
+0 -15 Td
+(• Portfolio Website - Modern responsive design) Tj
+0 -15 Td
+(• API Integration Projects - RESTful services) Tj
+
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000002325 00000 n 
+0000002404 00000 n 
+trailer
+<<
+/Size 7
+/Root 1 0 R
+>>
+startxref
+2478
+%%EOF
