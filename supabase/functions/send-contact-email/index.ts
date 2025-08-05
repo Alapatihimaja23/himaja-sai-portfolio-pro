@@ -28,7 +28,7 @@ const handler = async (req: Request): Promise<Response> => {
     // Send email to you (the portfolio owner)
     const emailResponse = await resend.emails.send({
       from: "Portfolio Contact <onboarding@resend.dev>",
-      to: ["himajasai@example.com"], // Replace with your actual email
+      to: ["himajaalapati23@gmail.com"], // Your verified email
       subject: `Portfolio Contact: ${subject}`,
       html: `
         <h2>New Contact Form Submission</h2>

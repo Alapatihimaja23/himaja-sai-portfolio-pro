@@ -1,7 +1,7 @@
 import { GraduationCap, Briefcase, MapPin, Calendar, Download } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import profileImage from '@/assets/profile-placeholder.jpg';
+import profileImage from '@/assets/profile-girl.jpg';
 
 const About = () => {
   const handleDownloadResume = () => {
